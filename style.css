@@ -1,0 +1,468 @@
+/* =========================
+   GENERAL SETTINGS
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+    background: #fff8fc;
+
+    color: #5a4b5d;
+
+    line-height: 1.8;
+
+}
+
+
+
+/* =========================
+   HERO SECTION
+========================= */
+
+
+.hero {
+
+    min-height: 70vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 40px 20px;
+
+}
+
+
+
+.hero h1 {
+
+    font-family: 'Great Vibes', cursive;
+
+    font-size: 80px;
+
+    font-weight: normal;
+
+    color: #e88aaa;
+
+}
+
+
+
+.hero h2 {
+
+    font-family: 'Great Vibes', cursive;
+
+    font-size: 100px;
+
+    font-weight: normal;
+
+    color: #d96c96;
+
+    margin-top: -20px;
+
+}
+
+
+
+.hero p {
+
+    font-size: 18px;
+
+    max-width: 600px;
+
+    margin-top: 20px;
+
+}
+
+
+
+.hero .date {
+
+    color: #c985a3;
+
+    font-size: 16px;
+
+}
+
+
+
+/* =========================
+   MAIN IMAGE
+========================= */
+
+
+.main-photo {
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    padding: 20px;
+
+}
+
+
+
+.main-photo img {
+
+    width: 90%;
+
+    max-width: 700px;
+
+    height: 450px;
+
+    object-fit: cover;
+
+    border-radius: 25px;
+
+    background:white;
+
+    padding: 12px;
+
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+
+}
+
+
+
+/* =========================
+   LETTER SECTION
+========================= */
+
+
+.letter-section {
+
+    padding: 80px 20px;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+
+
+.letter-box {
+
+
+    background:#ffffff;
+
+    max-width:850px;
+
+    width:100%;
+
+    padding:60px;
+
+    border-radius:20px;
+
+
+    box-shadow:
+
+    0 15px 40px rgba(0,0,0,0.08);
+
+
+}
+
+
+
+.letter-box h3 {
+
+
+    font-family:'Great Vibes', cursive;
+
+    font-size:60px;
+
+    color:#d96c96;
+
+    font-weight:normal;
+
+    margin-bottom:30px;
+
+
+}
+
+
+
+.letter-box p {
+
+
+    font-size:17px;
+
+    color:#5a4b5d;
+
+
+}
+
+
+
+.signature {
+
+
+    margin-top:40px;
+
+    font-family:'Great Vibes', cursive;
+
+    font-size:45px !important;
+
+    color:#d96c96 !important;
+
+
+}
+
+
+
+
+/* =========================
+   GALLERY
+========================= */
+
+
+.gallery {
+
+
+    padding:80px 20px;
+
+    text-align:center;
+
+
+}
+
+
+
+.gallery h3 {
+
+
+    font-family:'Great Vibes', cursive;
+
+    font-size:65px;
+
+    color:#d96c96;
+
+    font-weight:normal;
+
+    margin-bottom:50px;
+
+
+}
+
+
+
+.gallery-container {
+
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:35px;
+
+
+}
+
+
+
+.photo-card {
+
+
+    background:white;
+
+    width:280px;
+
+    padding:15px;
+
+    border-radius:15px;
+
+
+    box-shadow:
+
+    0 10px 30px rgba(0,0,0,0.1);
+
+
+}
+
+
+
+.photo-card img {
+
+
+    width:100%;
+
+    height:300px;
+
+    object-fit:cover;
+
+    border-radius:10px;
+
+
+}
+
+
+
+.photo-card p {
+
+
+    margin-top:15px;
+
+    font-size:15px;
+
+    color:#8b687d;
+
+
+}
+
+
+
+/* =========================
+   ENDING MESSAGE
+========================= */
+
+
+.ending {
+
+
+    padding:60px 20px;
+
+    display:flex;
+
+    justify-content:center;
+
+
+}
+
+
+
+.ending-box {
+
+
+    background:#ffeaf3;
+
+    max-width:700px;
+
+    padding:45px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+
+}
+
+
+
+.ending-box p {
+
+
+    font-size:18px;
+
+
+}
+
+
+
+
+
+/* =========================
+   FOOTER
+========================= */
+
+
+footer {
+
+
+    text-align:center;
+
+    padding:40px;
+
+    color:#8b687d;
+
+    font-size:15px;
+
+
+}
+
+
+
+
+
+/* =========================
+   MOBILE DESIGN
+========================= */
+
+
+@media(max-width:700px){
+
+
+    .hero h1 {
+
+        font-size:55px;
+
+    }
+
+
+
+    .hero h2 {
+
+        font-size:70px;
+
+    }
+
+
+
+    .letter-box {
+
+        padding:30px;
+
+    }
+
+
+
+    .letter-box h3 {
+
+        font-size:45px;
+
+    }
+
+
+
+    .main-photo img {
+
+        height:300px;
+
+    }
+
+
+
+    .gallery h3 {
+
+        font-size:50px;
+
+    }
+
+
+
+    .photo-card {
+
+        width:90%;
+
+    }
+
+
+}
